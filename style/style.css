@@ -1,14 +1,36 @@
-// font-family: 'Inter', sans-serif;
-font-family: "Raleway", sans-serif;
-
-h1 {
-  font-family: "Raleway", sans-serif;
+root {
+  --default-font: "Inter", sans-serif;
+  --name-font: "Raleway", sans-serif;
+  --btn-color: #ab914d;
 }
 
-p {
-  font-family: "Inter", sans-serif;
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: var(--name-font);
+  color: #ab914d;
+}
+
+h3 {
+  font-family: var(--default-font);
 }
 
 .social-icons {
   color: hotpink;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.btn-branding {
+  background: #ab914d;
+  color: black;
+  font-family: var(--default-font);
+  padding: 15px 20px;
+  font-size: 18px;
 }
