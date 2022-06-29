@@ -1,0 +1,14 @@
+// font-family: 'Inter', sans-serif;
+font-family: "Raleway", sans-serif;
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+.social-icons {
+  color: hotpink;
+}
