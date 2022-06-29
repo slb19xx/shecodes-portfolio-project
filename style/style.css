@@ -1,11 +1,12 @@
 root {
   --default-font: "Inter", sans-serif;
   --name-font: "Raleway", sans-serif;
-  --btn-color: #ab914d;
+  --section-title: #ab914d;
 }
 
 body {
   background-color: black;
+  color: white;
 }
 
 h1 {
@@ -17,8 +18,9 @@ h3 {
   font-family: var(--default-font);
 }
 
-.social-icons {
-  color: hotpink;
+.shari-photo {
+  max-width: 300px;
+  padding: 20px;
 }
 
 .hero {
@@ -33,4 +35,33 @@ h3 {
   font-family: var(--default-font);
   padding: 15px 20px;
   font-size: 18px;
+  text-transform: uppercase;
+}
+
+.section-titles {
+  color: #ab914d;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.project-descriptions {
+  font-family: var(--default-font);
+  padding: 10px;
+  text-align: center;
+}
+
+.project-descriptions img {
+  max-width: 260px;
+}
+
+@media (max-width: 576px) {
+  .project-cover {
+    display: none;
+  }
+  .project-link {
+    display: block;
+  }
+  .section-titles {
+    text-align: center;
+  }
 }
