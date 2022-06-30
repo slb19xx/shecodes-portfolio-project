@@ -54,9 +54,15 @@ h3 {
   max-width: 260px;
 }
 
+.about-cover {
+  max-width: 400px;
+}
 .portfolio-cover {
   max-width: 550px;
-  text-align: center;
+}
+
+.contact-cover {
+  max-width: 550px;
 }
 
 @media (max-width: 576px) {
