@@ -35,8 +35,16 @@ h3 {
   color: black;
   font-family: var(--default-font);
   padding: 15px 20px;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
+}
+
+.homepage-container {
+  max-width: 1000px;
+}
+
+.portfolio-row-1 {
+  text-align: center;
 }
 
 .section-titles {
