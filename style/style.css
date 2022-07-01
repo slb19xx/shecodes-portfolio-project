@@ -67,6 +67,7 @@ h3 {
   font-family: var(--default-font);
   color: #83afa6;
   text-transform: uppercase;
+  margin: 20px auto;
 }
 
 .section-titles {
@@ -99,6 +100,7 @@ h3 {
   }
   .portfolio-category {
     text-align: center;
+    margin: 10px auto;
   }
   .btn-resize {
     display: block;
