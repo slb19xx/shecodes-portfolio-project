@@ -106,6 +106,39 @@ body {
   font-size: 48px;
 }
 
+footer .social-links {
+  text-decoration: none;
+  margin: 40px 0;
+}
+
+footer .social-links a {
+  margin: 5px 20px;
+  color: #83afa6 !important;
+  background: #ececec;
+  padding: 10px 20px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: #ab914d !important;
+  transition: all 150ms ease-in-out;
+}
+
+footer .open-sourced {
+  margin: 10px 0 50px 0;
+}
+
+footer .open-sourced a {
+  color: #ab914d !important;
+  margin: 0 0 50px 0;
+  text-decoration: none;
+}
+
+footer .open-sourced a:hover {
+  color: #83afa6 !important;
+}
+
 @media (max-width: 576px) {
   .project-cover {
     display: none;
@@ -128,5 +161,8 @@ body {
   }
   .btn-resize {
     display: block;
+  }
+  footer .open-sourced {
+    margin: 5px 0 50px 0;
   }
 }
