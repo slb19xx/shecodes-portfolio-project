@@ -2,6 +2,7 @@ root {
   --default-font: "Inter", sans-serif;
   --section-font: "Raleway", sans-serif;
   --section-title: #ab914d;
+  --accent-color: #83afa6;
 }
 
 body {
@@ -10,8 +11,9 @@ body {
 }
 
 h1 {
-  font-family: var(--name-font);
+  font-family: var(--default-font);
   color: #ab914d;
+  font-size: 64px;
 }
 
 h3 {
@@ -45,7 +47,8 @@ h3 {
 
 .portfolio-cover,
 .about-cover,
-.contact-cover {
+.contact-cover,
+.project-cover {
   max-width: 100%;
   border-radius: 40px;
 }
@@ -60,20 +63,22 @@ h3 {
   font-size: 48px;
 }
 
+.portfolio-category {
+  font-family: var(--default-font);
+  color: #83afa6;
+  text-transform: uppercase;
+}
+
 .section-titles {
   color: #ab914d;
   text-transform: uppercase;
   font-family: var(--section-font);
+  font-size: 36px;
 }
 
 .project-descriptions {
   font-family: var(--default-font);
-  padding: 10px;
   text-align: center;
-}
-
-.project-descriptions img {
-  max-width: 260px;
 }
 
 @media (max-width: 576px) {
@@ -91,5 +96,11 @@ h3 {
   }
   .contact-text {
     text-align: center;
+  }
+  .portfolio-category {
+    text-align: center;
+  }
+  .btn-resize {
+    display: block;
   }
 }
