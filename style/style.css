@@ -26,6 +26,7 @@ body {
 }
 
 .page-title {
+  padding: 40px 0px 10px 0px;
   font-size: 70px;
   text-transform: uppercase;
   font-family: var(--inter-font);
