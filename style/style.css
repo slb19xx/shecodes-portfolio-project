@@ -39,10 +39,11 @@ h3 {
   text-transform: uppercase;
 }
 
-.portfolio-row-1 {
+.portfolio-row {
   text-align: center;
 }
 
+.portfolio-cover,
 .about-cover,
 .contact-cover {
   max-width: 100%;
@@ -73,10 +74,6 @@ h3 {
 
 .project-descriptions img {
   max-width: 260px;
-}
-
-.portfolio-cover {
-  max-width: 550px;
 }
 
 @media (max-width: 576px) {
