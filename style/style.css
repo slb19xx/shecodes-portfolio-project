@@ -39,12 +39,17 @@ h3 {
   text-transform: uppercase;
 }
 
-.homepage-container {
-  max-width: 1000px;
-}
-
 .portfolio-row-1 {
   text-align: center;
+}
+
+.bio-text {
+  font-family: var(--default-font);
+  font-size: 20px;
+}
+
+.tech-emoji {
+  font-size: 48px;
 }
 
 .section-titles {
@@ -63,7 +68,8 @@ h3 {
 }
 
 .about-cover {
-  max-width: 400px;
+  max-width: 100%;
+  border-radius: 40px;
 }
 .portfolio-cover {
   max-width: 550px;
