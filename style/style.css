@@ -12,6 +12,19 @@ body {
   color: white;
 }
 
+.navbar-brand {
+  color: #ab914d !important;
+}
+
+.site-navigation {
+  background-color: black !important;
+  font-size: 18px;
+}
+
+.active {
+  color: #83afa6 !important;
+}
+
 .page-title {
   font-size: 70px;
   text-transform: uppercase;
