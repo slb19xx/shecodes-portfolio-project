@@ -1,8 +1,10 @@
 root {
-  --default-font: "Inter", sans-serif;
-  --section-font: "Raleway", sans-serif;
+  --barlow-font: "Barlow", sans-serif;
+  --inter-font: "Inter", sans-serif;
+  --raleway-font: "Raleway", sans-serif;
   --section-title: #ab914d;
   --accent-color: #83afa6;
+  --grey-accent-color: #ececec;
 }
 
 body {
@@ -10,14 +12,56 @@ body {
   color: white;
 }
 
-h1 {
-  font-family: var(--default-font);
+.page-title {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: var(--inter-font);
+  font-weight: 200;
   color: #ab914d;
-  font-size: 64px;
 }
 
-h3 {
-  font-family: var(--default-font);
+.subheading-text {
+  font-size: 48px;
+  font-family: var(--raleway-font);
+  font-weight: 100;
+  color: #83afa6;
+}
+
+.button-text {
+  background: #ab914d;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: var(--inter-font);
+  color: #000000;
+}
+
+.body-text {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: var(--barlow-font);
+  color: #ececec;
+}
+
+.subsection-title {
+  font-size: 46px;
+  font-weight: 100;
+  color: #83afa6;
+  font-family: var(--raleway-font);
+}
+
+.portfolio-category {
+  font-family: var(--barlow-font);
+  font-weight: 100;
+  font-size: 32px;
+  color: #ececec;
+  text-transform: uppercase;
+  margin: 20px auto;
+}
+
+.project-descriptions {
+  text-align: center;
 }
 
 .shari-photo {
@@ -32,15 +76,6 @@ h3 {
   padding: 20px;
 }
 
-.btn-branding {
-  background: #ab914d;
-  color: black;
-  font-family: var(--default-font);
-  padding: 15px 20px;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-
 .portfolio-row {
   text-align: center;
 }
@@ -53,33 +88,8 @@ h3 {
   border-radius: 40px;
 }
 
-.bio-text,
-.contact-text {
-  font-family: var(--default-font);
-  font-size: 20px;
-}
-
 .tech-emoji {
   font-size: 48px;
-}
-
-.portfolio-category {
-  font-family: var(--default-font);
-  color: #83afa6;
-  text-transform: uppercase;
-  margin: 20px auto;
-}
-
-.section-titles {
-  color: #ab914d;
-  text-transform: uppercase;
-  font-family: var(--section-font);
-  font-size: 36px;
-}
-
-.project-descriptions {
-  font-family: var(--default-font);
-  text-align: center;
 }
 
 @media (max-width: 576px) {
@@ -89,13 +99,13 @@ h3 {
   .project-link {
     display: block;
   }
-  .section-titles {
+  .subsection-title {
     text-align: center;
   }
   .section-descriptions {
     text-align: center;
   }
-  .contact-text {
+  .body-text {
     text-align: center;
   }
   .portfolio-category {
