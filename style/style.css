@@ -34,6 +34,13 @@ body {
   color: #ab914d;
 }
 
+.job-title {
+  font-size: 32px;
+  font-family: var(--raleway-font);
+  font-weight: 100;
+  color: #ececec;
+}
+
 .subheading-text {
   font-size: 48px;
   font-family: var(--raleway-font);
@@ -78,6 +85,15 @@ body {
   text-align: center;
 }
 
+.email-link {
+  text-decoration: none;
+  color: #83afa6 !important;
+}
+
+.email-link:hover {
+  color: #ab914d !important;
+}
+
 .shari-photo {
   max-width: 300px;
   padding: 10px;
@@ -99,6 +115,11 @@ body {
 .contact-cover,
 .project-cover {
   max-width: 100%;
+  border-radius: 40px;
+}
+
+.connect-cover {
+  max-width: 700px;
   border-radius: 40px;
 }
 
@@ -140,6 +161,9 @@ footer .open-sourced a:hover {
 }
 
 @media (max-width: 576px) {
+  .connect-cover {
+    max-width: 100%;
+  }
   .project-cover {
     display: none;
   }
